@@ -1,0 +1,129 @@
+/*FONTS*/
+@font-face {
+	font-family: "Asap-Regular";
+    src: url('../../assets/fonts/Asap-Regular.ttf'); 
+}
+@font-face {
+	font-family: "Asap-Bold";
+    src: url('../../assets/fonts/Asap-Bold.ttf'); 
+}
+
+/*CONTENT*/
+#content-section {
+	width: 100%;
+  	font-size: 20pt;
+  	font-family: "Asap-Regular";
+  	color: #999999;
+}
+.wrap-container {
+	margin: 0 auto;
+  	width: 87%;
+}
+#about-content1 .description {
+	width: 58%;
+	float: left;
+}
+.desc-image {
+	width: 35%;
+	float: left;
+	margin-top: 5%;
+}
+.desc-image img {
+  	float: left;
+  	margin-left: 10%;
+}
+#about-content1,
+#about-content2,
+#about-content3 {
+	float: left;
+	width: 100%;
+}
+.description h2 {
+	font-family: "Asap-Bold";
+	font-size: 36pt;
+	color: #333333;
+}
+.head {
+	font-family: "Asap-Bold";
+	font-size: 22pt;
+	color: #333333;
+}
+#about-content2 {
+	background-color: #f5f5f5;
+}
+#about-content2 .sub-desc {
+  	background-color: #fff;
+  	padding: 20px 25px;
+  	margin: 50px 10px;
+  	position: relative;
+  	border-radius: 10px;
+  	float: left;
+}
+#about-content2 .sub-desc-wrap.left,
+#about-content2 .sub-desc-wrap.right {
+  	width: 47%;
+}
+#circle-2014,
+#circle-now {
+	background-color: #f5f5f5;
+  	border: 7px solid #fff;
+  	width: 100px;
+  	height: 100px;
+  	margin: 0 auto;
+  	border-radius: 65px;
+  	margin-top: -62px;
+  	text-align: center;
+  	position: relative;
+}
+#circle-2014 span,
+#circle-now span {
+	font-family: "Asap-Bold";
+  	font-size: 22px;
+  	margin: 33% auto;
+  	float: left;
+  	width: 100%;
+}
+#circle-now {
+	background-color: #e74c3c;
+	color: #ffffff;
+	border: none;
+}
+.tooltip.right {
+  	border-bottom: 15px solid transparent;
+  	border-top: 15px solid transparent;
+  	border-left: 20px solid #fff;
+  	right: 21px;
+}
+.tooltip.left {
+  	border-bottom: 15px solid transparent;
+  	border-top: 15px solid transparent;
+  	border-right: 20px solid #fff;
+  	left: 20px;
+}
+.border-circle {
+  	position: absolute;
+  	width: 40px;
+  	height: 40px;
+  	border-radius: 40px;
+  	z-index: 10;
+}
+#about-content3 {
+	text-align: center;
+}
+#email-button {
+	width: 100%;
+  	position: relative;
+  	float: left;
+  	margin-top: 50px;
+  	margin-bottom: 60px;
+}
+#email-button a {
+	text-decoration: none;
+  	padding: 20px 80px 20px 80px;
+  	margin: 0 auto;
+  	font-family: "Asap-Regular";
+  	background-color: #2ecc71;
+  	border-radius: 35px;
+  	font-size: 20.3pt;
+  	color: #ffffff;
+}
