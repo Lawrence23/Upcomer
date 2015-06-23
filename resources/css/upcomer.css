@@ -1,0 +1,152 @@
+
+
+/*FONTS*/
+@font-face {
+	font-family: "Calibri";
+    src: url('../../assets/fonts/calibri/calibri.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Bold";
+    src: url('../../assets/fonts/calibri/calibrib.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Italic";
+    src: url('../../assets/fonts/calibri/calibrii.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Bold-Italic";
+    src: url('../../assets/fonts/calibri/calibriz.ttf'); 
+}
+@font-face {
+	font-family: "Asap-Bold";
+    src: url('../../assets/fonts/Asap/Asap-Bold.ttf'); 
+}
+@font-face {
+	font-family: "Georgia";
+    src: url('../../assets/fonts/Open Sans/georgia.ttf'); 
+}
+@font-face {
+	font-family: "Georgia-Italic";
+    src: url('../../assets/fonts/Georgia/georgiai.ttf'); 
+}
+@font-face {
+	font-family: "Georgia-Bold-Italic";
+    src: url('../../assets/fonts/Georgia/georgiaz.ttf'); 
+}
+@font-face {
+	font-family: "Georgia-Bold";
+    src: url('../../assets/fonts/Georgia/georgiab.ttf'); 
+}
+@font-face {
+	font-family: "Helvetica-Neue-Light";
+    src: url('../../assets/fonts/Helvetica/HelveticaNeueLight.ttf'); 
+}
+@font-face {
+	font-family: "Helvetica-Neue-Bold";
+    src: url('../../assets/fonts/Helvetica/helvetica-neue-bold.ttf'); 
+}
+/*END FONTS*/
+
+
+/*HEADER*/
+
+#logo{
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+#nav{
+	float: left;
+    margin-top: -51px;
+	font-family: Asap-Bold;
+	font-size: 18pt;
+	color: #333333;
+}
+#social_icons{
+	float: right;
+  	margin-top: -53px;
+  	cursor: pointer;
+}
+#header_wrapper{
+	margin: 0 auto;
+	width: 87%;
+	max-width: 1165px;
+}
+#nav ul{
+	padding: 0;
+  	margin: 27px 0;
+}
+.link{
+	list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+#nav li a{
+	text-decoration: none;
+	color: #999;
+	font-size: 18px;
+	font-family: Asap-Bold;
+}
+#social_icons ul{
+	padding: 0;
+  	margin: 27px 0;
+}
+#social_icons li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+#social_icons ul .iconfb{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: -10px;
+	background-image: url("../../assets/slices/fb-icon.png");
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+#social_icons ul .icontwitter{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: -10px;
+	background-image: url("../../assets/slices/tweet-icon.png");
+	background-repeat: no-repeat;
+}
+#content_wrapper{
+	background: url("../../assets/slices/bg1_repeat.png") ;
+	background-repeat: repeat;
+    /*margin-top: 83px;*/
+    position: relative;
+	color: #fff;
+	float: left;
+	width: 100%;
+}
+#content{
+	max-width: 684px;
+	margin: 90px auto 0;
+	text-align: center;
+	position: relative;
+}
+#description{
+	max-width: 640px;
+	line-height: normal;
+	margin: 0 auto;
+}
+#description h2{
+	font-family: Asap-Bold;
+	font-size: 52px;
+	line-height: 1.2em;
+	display: block;
+	font-weight: bold;
+}
+#content label span{
+	margin-bottom: 40px;
+	display: block;
+    font-family: Asap-Regular;
+    font-size: 24px;
+	display: block;
+	line-height: 1.5em;
+}
