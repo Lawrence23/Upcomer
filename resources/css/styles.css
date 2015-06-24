@@ -7,11 +7,84 @@
 	font-family: "Asap-Bold";
     src: url('../../assets/fonts/Asap-Bold.ttf'); 
 }
+/*HEADER*/
+#logo{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+#nav{
+    float: left;
+    margin-top: -51px;
+    font-family: "Asap-Bold";
+    font-size: 18pt;
+    color: #333333;
+}
+#social_icons{
+    float: right;
+    margin-top: -53px;
+    cursor: pointer;
+}
+#header_wrapper{
+    margin: 0 auto;
+    width: 87%;
+    max-width: 1165px;
+}
+#nav ul{
+    padding: 0;
+    margin: 27px 0;
+}
+.link{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;
+    font-family: "Asap-Bold";
+}
+#social_icons ul{
+    padding: 0;
+    margin: 27px 0;
+}
+#social_icons li a{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#social_icons ul .iconfb{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    background-image: url("../../assets/images/fb-icon.png");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+#social_icons ul .icontwitter{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    background-image: url("../../assets/images/tweet-icon.png");
+    background-repeat: no-repeat;
+}
+
 
 /*CONTENT*/
+body {
+    max-width: 1920px;
+    margin: 0 auto !important;
+    left: 0;
+    right: 0;
+}
 #content-section {
 	width: 100%;
-  	font-size: 20pt;
+  	font-size: 20px;
   	font-family: "Asap-Regular";
   	color: #999999;
 }
@@ -22,6 +95,9 @@
 #about-content1 .description {
 	width: 58%;
 	float: left;
+}
+.description span {
+    line-height: 1.5em;
 }
 .desc-image {
 	width: 35%;
@@ -40,16 +116,18 @@
 }
 .description h2 {
 	font-family: "Asap-Bold";
-	font-size: 36pt;
+	font-size: 36px;
 	color: #333333;
+    margin: 30px 0px;
 }
 .head {
 	font-family: "Asap-Bold";
-	font-size: 22pt;
+	font-size: 22px;
 	color: #333333;
 }
 #about-content2 {
 	background-color: #f5f5f5;
+    padding-bottom: 46px;
 }
 #about-content2 .sub-desc {
   	background-color: #fff;
@@ -59,9 +137,60 @@
   	border-radius: 10px;
   	float: left;
 }
-#about-content2 .sub-desc-wrap.left,
-#about-content2 .sub-desc-wrap.right {
+#about-content2 .sub-desc span.head {
+    margin-top: 0px;
+}
+#about-content2 .sub-desc span {
+    margin-top: 10px;
+    float: left;
+}
+#about-content2 .sub-desc-left1,
+#about-content2 .sub-desc-left2,
+#about-content2 .sub-desc-right1,
+#about-content2 .sub-desc-right2 {
   	width: 47%;
+    position: relative;
+}
+.sub-desc-left1,
+.sub-desc-left2 {
+    float: left;
+    padding-right: 2.7%;
+    border-right: 7px solid #fff;
+}
+.sub-desc-right1,   
+.sub-desc-right2 {
+    float: right;
+    padding-left: 2.7%;
+    border-left: 7px solid #fff;
+}
+.sub-desc-right1 {
+    margin-top: -86px;;
+}
+.sub-desc-left2 {
+    margin-top: -100px;
+}
+.sub-desc-right2 {
+    margin-top: -100px;
+}
+.sub-desc-left1 .border-circle {
+    background-color: #ffc3bd;
+    right: -24px;
+    top: 41%;
+}
+.sub-desc-left2 .border-circle {
+    background-color: #fa9d93;
+    right: -24px;
+    top: 41%;
+}
+.sub-desc-right1 .border-circle {
+    background-color: #ed8074;
+    left: -25px;
+    top: 39%;
+}
+.sub-desc-right2 .border-circle {
+    background-color: #ec675a;
+    left: -25px;
+    top: 39%;
 }
 #circle-2014,
 #circle-now {
@@ -87,18 +216,34 @@
 	background-color: #e74c3c;
 	color: #ffffff;
 	border: none;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 65px;
+    margin-top: -47px;
+    text-align: center;
+    position: relative;
 }
-.tooltip.right {
+.tooltip-right {
   	border-bottom: 15px solid transparent;
   	border-top: 15px solid transparent;
   	border-left: 20px solid #fff;
   	right: 21px;
 }
-.tooltip.left {
+.tooltip-left {
   	border-bottom: 15px solid transparent;
   	border-top: 15px solid transparent;
   	border-right: 20px solid #fff;
   	left: 20px;
+}
+.tooltip-left,
+.tooltip-right {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 44%;
 }
 .border-circle {
   	position: absolute;
@@ -124,6 +269,32 @@
   	font-family: "Asap-Regular";
   	background-color: #2ecc71;
   	border-radius: 35px;
-  	font-size: 20.3pt;
+  	font-size: 20.3px;
   	color: #ffffff;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+}
+@media only screen and (min-width: 1681px) and (max-width: 1920px) {
+
+}
+@media only screen and (min-width: 1441px) and (max-width: 1680px) {
+
+}   
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+}
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+
+}
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
 }
