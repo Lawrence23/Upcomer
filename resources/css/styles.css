@@ -100,6 +100,7 @@ body {
   	font-size: 20px;
   	font-family: "Asap-Regular";
   	color: #999999;
+  	margin: 100px 0 70px;
 }
 .wrap-container {
 	margin: 0 auto;
@@ -115,11 +116,10 @@ body {
 .desc-image {
 	width: 35%;
 	float: left;
-	margin-top: 5%;
 }
 .desc-image img {
   	float: left;
-  	margin-left: 10%;
+  	margin-left: 20%;
 }
 #about-content1,
 #about-content2,
