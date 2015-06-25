@@ -57,7 +57,6 @@ body{
 	margin:0 auto;
 	width:100%;
 	max-width: 1650px;
-
 }
 #logo{
 	text-align: center;
@@ -79,12 +78,20 @@ body{
 }
 #header_wrapper{
 	margin: 0 auto;
-	width: 87%;
-	max-width: 1165px;
+	width: 100%;
+	max-width: 1377px;
+	border-bottom: 1px solid #F5F5F5;
+	box-shadow: 0px 0px 0px 0px;
+	height: 82px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	background-color: #fff;
+	padding-bottom: 11px;
 }
 #nav ul{
 	padding: 0;
-  	margin: 27px 0;
+  	margin: 27px 82px;
 }
 .link{
 	list-style: none;
@@ -99,7 +106,7 @@ body{
 }
 #social_icons ul{
 	padding: 0;
-  	margin: 27px 0;
+  	margin: 27px 82px;
 }
 #social_icons li a{
 	float: left;
@@ -127,7 +134,7 @@ body{
 #content_wrapper{
 	background: url("../../assets/slices/bg1_repeat.png") ;
 	background-repeat: repeat;
-    /*margin-top: 83px;*/
+    padding-top: 83px;
     position: relative;
 	color: #fff;
 	float: left;
@@ -342,4 +349,59 @@ div input[type="submit"]{
 }
 #share_options section{
 	width: 76%;
+}
+#footer,
+#banner-footer {
+    float: left;
+    width: 100%;    
+}
+#banner-footer {
+    background-color: #333;
+}
+.footer-wrap-container {
+    margin: 0 auto;
+    width: 100%;
+}
+#footer-banner-wrap {
+    width: 605px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#footer-banner-wrap img {
+    float: left;
+    margin-left: -100px;
+}
+#footer-banner-wrap span {
+    color: #fff;
+    font-size: 48px;
+    font-family: "Asap-Bold";
+    float: left;
+    margin-top: 95px;
+    margin-left: -69px;
+}
+#footer ul {
+    margin: 35px auto;
+    position: relative;
+    width: 150px;
+    height: 20px;
+    padding: 0;
+}
+#footer ul .iconfb{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    background-image: url("../../assets/images/fb-icon.png");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#footer ul .icontwitter{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -10px;
+    background-image: url("../../assets/images/tweet-icon.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
