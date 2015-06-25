@@ -22,6 +22,10 @@
     src: url('../../assets/fonts/Asap/Asap-Bold.ttf'); 
 }
 @font-face {
+	font-family: "Asap-Regular";
+    src: url('../../assets/fonts/Asap-Regular.ttf'); 
+}
+@font-face {
 	font-family: "Georgia";
     src: url('../../assets/fonts/Open Sans/georgia.ttf'); 
 }
@@ -49,18 +53,23 @@
 
 
 /*HEADER*/
+body{
+	margin:0 auto;
+	width:100%;
+	max-width: 1650px;
 
+}
 #logo{
-  text-align: center;
-  width: 100%;
-  float: left;
-  margin-top: 40px;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: 40px;
 }
 #nav{
 	float: left;
     margin-top: -51px;
 	font-family: Asap-Bold;
-	font-size: 18pt;
+	font-size: 18px;
 	color: #333333;
 }
 #social_icons{
@@ -123,6 +132,7 @@
 	color: #fff;
 	float: left;
 	width: 100%;
+	height: 664px;
 }
 #content{
 	max-width: 684px;
@@ -141,6 +151,7 @@
 	line-height: 1.2em;
 	display: block;
 	font-weight: bold;
+	margin-bottom: 36px;
 }
 #content label span{
 	margin-bottom: 40px;
@@ -149,4 +160,186 @@
     font-size: 24px;
 	display: block;
 	line-height: 1.5em;
+}
+div input[type="email"]{
+	border-radius: 35px 0px 0 35px ;
+	background-color: #ee8277;
+	color: #fff;
+	width: 212px;
+	height: 43px;
+	padding-left: 45px;
+	padding-top: 8px;
+	padding-bottom: 9px;
+	border: 0;
+	font-family: Asap-Regular;
+	float: left;
+	font-size: 20.3px;
+	outline: none;
+}
+div input[type="submit"]{
+	border-radius: 0px 35px 35px 0px ;
+	background-color: #2ecc71;
+	background-image: none;
+	width: 81px;
+	height: 60px;
+	max-height: none;
+/*	margin-left: -6px;*/
+	border: 0;
+	font-family: Asap-Regular;
+	float: left;
+	font-size: 20.3px;
+	-webkit-appearance: button;
+	cursor: pointer;
+	color: white;
+	outline: none;
+}
+.signup{
+	position: absolute;
+}
+.signup_container{
+	position: relative;
+	max-width: 350px;
+	margin: 5px auto 60px;
+}
+.coming_soon{
+	float: left;
+	margin-top: 73px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-family: Asap-Regular;
+	color: white;
+}
+#scroll{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+#scroll img{
+	cursor: pointer;
+	position: relative;
+	top: 4px;
+}
+#first_container{
+	float: left;
+  	width: 100%;
+}
+#first_section{
+	background-color: #fff;
+	/*margin-top: 60px;*/
+	float: left;
+	width: 100%;
+}
+#product_details{
+	margin: 0 auto;
+	width: 33%;
+	max-width: 1165px;
+	text-align: center;
+	padding-top: 60px;
+
+}
+#imgbg{
+	float: left;
+	width: 100%;
+	margin-bottom: 122px;
+}
+#imgbg div img{
+	width: 100%;
+	float: left;
+}
+#heading{
+	max-width: 510px;
+	margin: 0 auto;
+	text-align: center;
+}
+#heading h2{
+	font-family: Asap-Bold;
+	font-size: 36px;
+	color: #333;
+	display: block;
+/*	font-size: 1.5em;*/
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+#product_details span{
+	font-family: Asap-Regular;
+	font-size: 20px;
+	color: #999;
+	line-height: 1.5em;
+}
+#second_section{
+	width:80%;
+	margin: 130px 251px;
+	overflow: hidden;
+}
+#second_container{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: auto;
+	padding-bottom: 90px;
+}
+#second_section img{
+	float:left;
+	margin-right: 73px;
+	width: 36%;
+	overflow: hidden;
+}
+.product{
+	float: left;
+	width: 44%;
+}
+.product h3{
+	font-family: Asap-Bold;
+	font-size: 36px;
+	color: #333333;
+	margin-bottom: 43px;
+}
+.product span{
+	font-family: Asap-Regular;
+	font-size: 21px;
+	color: #999999;
+}
+#notification_div{
+	width: 80%;
+	overflow: hidden;
+	margin-left: 248px
+}
+#notification_div img{
+	float:left;
+	margin-right: 73px;
+	width: 36%;
+}
+#share_options span{
+	font-family: Asap-Regular;
+	font-size: 24px;
+	color:#ffffff;
+	text-align: center;
+}
+#share_options{
+	width: 90%;
+	text-align: center;
+	margin-left: 198px;
+	padding-top: 73px;
+	line-height: 2.2em;	
+	margin-bottom: 60px;
+}
+#sharing_content{
+	background-image:  url("../../assets/slices/bg2.png") ;
+	background-repeat: repeat;
+	overflow: hidden;
+	padding-bottom: 65px;
+}
+#share_options h3{
+	font-family: Asap-Regular;
+	font-size: 24px;
+	color:#ffffff;
+	text-align: center;
+	padding-top: 43px;
+}
+#share_options section{
+	width: 76%;
 }
