@@ -93,7 +93,12 @@ body{
 	padding: 0;
   	margin: 27px 82px;
 }
-.link{
+.link1{
+	list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.link2{
 	list-style: none;
     display: inline;
     margin-left: 20px;
@@ -329,7 +334,7 @@ div input[type="submit"]{
 #share_options{
 	width: 90%;
 	text-align: center;
-	margin-left: 198px;
+    margin: 0 auto;
 	padding-top: 73px;
 	line-height: 2.2em;	
 	margin-bottom: 60px;
@@ -349,6 +354,7 @@ div input[type="submit"]{
 }
 #share_options section{
 	width: 76%;
+	margin: 0 auto;
 }
 #footer,
 #banner-footer {
@@ -405,3 +411,30 @@ div input[type="submit"]{
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+
+/*responsive design*/
+
+
+@media only screen and (max-width: 600px){
+#social_icons {
+	display: none;
+}
+.link2{
+	margin-left: 237px;
+}
+}
+@media only screen and (max-width: 414px){
+#social_icons {
+	display: none;
+}
+.loink1{
+	margin-left: -38px;
+}
+.link2{
+	margin-left: 214px;
+	margin-top: -15px;
+}
+
+}
+
