@@ -212,6 +212,10 @@ div input[type="submit"]{
 	max-width: 350px;
 	margin: 5px auto 60px;
 }
+.clear {
+	position: absolute;
+  	margin-left: 100%;
+}
 .coming_soon{
 	float: left;
 	margin-top: 73px;
