@@ -424,6 +424,7 @@ div input[type="submit"]{
 
 
 /*responsive design*/
+
 @media only screen and (max-width: 650px){
 #second_section {
 	width: 100%;
@@ -508,11 +509,19 @@ span{
 }
 .link1{
 	margin-left: 0px;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
 }
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
 @media only screen and (max-width: 414px){
 #social_icons {
 	display: none;
@@ -525,4 +534,8 @@ span{
 }
 #nav{
 	display: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
