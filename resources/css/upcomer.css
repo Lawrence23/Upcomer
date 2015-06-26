@@ -57,6 +57,7 @@ body{
 	margin:0 auto;
 	width:100%;
 	max-width: 1650px;
+	overflow-x:hidden;
 }
 #logo{
 	text-align: center;
@@ -89,9 +90,14 @@ body{
 	background-color: #fff;
 	padding-bottom: 11px;
 }
+#header_container{
+	width: 85%;
+	margin: 0 auto;
+}
+
 #nav ul{
 	padding: 0;
-  	margin: 27px 82px;
+  	margin: 27px 0;
 }
 .link1{
 	list-style: none;
@@ -111,7 +117,7 @@ body{
 }
 #social_icons ul{
 	padding: 0;
-  	margin: 27px 82px;
+  	margin: 27px 0;
 }
 #social_icons li a{
 	float: left;
@@ -210,7 +216,7 @@ div input[type="submit"]{
 .signup_container{
 	position: relative;
 	max-width: 350px;
-	margin: 5px auto 60px;
+	margin: 5px auto 130px;
 }
 .clear {
 	position: absolute;
@@ -230,7 +236,7 @@ div input[type="submit"]{
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 78px;
 }
 #scroll img{
 	cursor: pointer;
@@ -418,27 +424,105 @@ div input[type="submit"]{
 
 
 /*responsive design*/
-
-
+@media only screen and (max-width: 650px){
+#second_section {
+	width: 100%;
+	margin: 0px 0px;
+}
+#second_section img{
+	margin-right: 73px;
+	width: 100%;
+}
+.product {
+	margin-top: 57px;
+	width: 100%;
+	text-align: center;
+}
+#notification_div {
+	width: 100%;
+	margin: 0px 0px;
+}
+#notification_div img {
+	margin-right: 73px;
+	width: 100%;
+}
+#product_details {
+ 	width: 100%;
+}
+}
 @media only screen and (max-width: 600px){
+#second_section {
+	width: 100%;
+	margin: 0px 0px;
+}
+#second_section img{
+	margin-right: 73px;
+	width: 100%;
+}
+.product {
+	margin-top: 57px;
+	width: 100%;
+	text-align: center;
+}
+#notification_div {
+	width: 100%;
+	margin: 0px 0px;
+	padding-top: 60px;
+}
+#notification_div img {
+	margin-right: 73px;
+	width: 100%;
+}
+#product_details {
+ 	width: 100%;
+ }
 #social_icons {
 	display: none;
 }
+span{
+	font-size: 18px;
+}
+#heading h2{
+	font-size: 36px;
+}
+.link1{
+	margin-left: 20px;
+}
 .link2{
-	margin-left: 237px;
+	float: right;
+}
+#nav{
+	width: 100%;
+}
+#nav ul{
+	width: 100%;
+}
+#description h2 {
+    font-size: 36px;
+}
+@media only screen and (max-width: 375px){
+
+.link2{
+	margin-left: 0px;
+    margin-top: 0px; 
+}
+.link1{
+	margin-left: 0px;
 }
 }
+
+
+
 @media only screen and (max-width: 414px){
 #social_icons {
 	display: none;
 }
-.loink1{
-	margin-left: -38px;
-}
-.link2{
-	margin-left: 214px;
-	margin-top: -15px;
 }
 
+@media only screen and (max-width: 320px){
+#social_icons {
+	display: none;
 }
-
+#nav{
+	display: none;
+}
