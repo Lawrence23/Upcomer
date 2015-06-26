@@ -8,22 +8,17 @@
     src: url('../../assets/fonts/Asap-Bold.ttf'); 
 }
 /*HEADER*/
-body{
-    margin:0 auto;
-    width:100%;
-    max-width: 1650px;
-}
 #logo{
-  text-align: center;
-  width: 100%;
-  float: left;
-  margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
 }
 #nav{
     float: left;
     margin-top: -51px;
     font-family: Asap-Bold;
-    font-size: 18pt;
+    font-size: 18px;
     color: #333333;
 }
 #social_icons{
@@ -34,7 +29,7 @@ body{
 #header_wrapper{
     margin: 0 auto;
     width: 100%;
-    max-width: 1377px;
+    max-width: 1650px;
     border-bottom: 1px solid #F5F5F5;
     box-shadow: 0px 0px 0px 0px;
     height: 82px;
@@ -44,11 +39,21 @@ body{
     background-color: #fff;
     padding-bottom: 11px;
 }
+#header_container{
+    width: 85%;
+    margin: 0 auto;
+}
+
 #nav ul{
     padding: 0;
-    margin: 27px 82px;
+    margin: 27px 0;
 }
-.link{
+.link1{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.link2{
     list-style: none;
     display: inline;
     margin-left: 20px;
@@ -61,7 +66,7 @@ body{
 }
 #social_icons ul{
     padding: 0;
-    margin: 27px 82px;
+    margin: 27px 0;
 }
 #social_icons li a{
     float: left;
@@ -90,10 +95,12 @@ body{
 
 /*CONTENT*/
 body {
-    max-width: 1920px;
     margin: 0 auto !important;
     left: 0;
     right: 0;
+    width:100%;
+    max-width: 1650px;
+    overflow-x:hidden;
 }
 #content-section {
 	width: 100%;
@@ -343,7 +350,27 @@ body {
     cursor: pointer;
 }
 /*MEDIA QUERIES*/
+@media only screen and (max-width: 320px){
+    #social_icons {
+        display: none;
+    }
+    #nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px){
+    .link2{
+        margin-left: 0px;
+        margin-top: 0px; 
+    }
+    .link1{
+        margin-left: 0px;
+    }
+}   
 @media only screen and (max-width: 480px) {
+    #social_icons {
+        display: none;
+    }
     #circle-2014 {
         width: 80px;
         height: 80px;
@@ -418,7 +445,7 @@ body {
         width: 95%;
     }
     #footer-banner-wrap {
-        width: 100%;
+        width: 100% !important
     }
     #footer-banner-wrap img {
         margin-left: 0px;
@@ -431,6 +458,26 @@ body {
         margin-top: 38px;
     }
     
+}
+@media only screen and (max-width: 575px) {
+    .footer-wrap-container #footer-banner-wrap {
+        width: 60%;
+    }
+    #social_icons {
+        display: none;
+    }
+    .link1{
+        margin-left: 20px;
+    }
+    .link2{
+        float: right;
+    }
+    #nav{
+        width: 100%;
+    }
+    #nav ul{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 720px) {
     .wrap-container {
@@ -532,7 +579,7 @@ body {
         width: 95%;
     }
     #footer-banner-wrap {
-        width: 100%;
+        width: 50%;
     }
     #footer-banner-wrap img {
         margin-left: 0px;
@@ -545,21 +592,75 @@ body {
         margin-top: 38px;
     }
 }    
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-
-}
-@media only screen and (min-width: 1681px) and (max-width: 1920px) {
-
-}
-@media only screen and (min-width: 1441px) and (max-width: 1680px) {
-
-}   
-@media only screen and (min-width: 1281px) and (max-width: 1440px) {
-
-}
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
-
-}
-@media only screen and (min-width: 721px) and (max-width: 1024px) {
-
+@media only screen and (max-width: 1024px) {
+    .wrap-container {
+        width: 87%;
+    }
+    #about-content1 .description {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .desc-image {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .desc-image img {
+        width: 40%;
+        float: none;
+        margin: 0 auto;
+    }
+    #circle-2014 {
+        margin: -62px -9px 0px;
+    }
+    #about-content2 .sub-desc-left1,
+    #about-content2 .sub-desc-left2,
+    #about-content2 .sub-desc-right1,
+    #about-content2 .sub-desc-right2 {
+        margin-left: 43px;
+        width: 100%;
+        padding-left: 38px;
+        position: relative;
+        float: left;
+        border-left: 7px solid #fff;
+        margin-top: 0px;
+    }
+    .sub-desc-left1, .sub-desc-left2 {
+        border-right: none;
+    }
+    #about-content2 .sub-desc {
+        margin: 25px 9px 25px 0;
+        padding: 15px 7px 15px 10px;
+        width: 80%;
+        border-left: 7px solid #fff;
+    }
+    .tooltip-left,
+    .tooltip-right {
+        left: 18px;
+    }
+    .tooltip-right {
+        border-bottom: 15px solid transparent;
+        border-top: 15px solid transparent;
+        border-right: 20px solid #fff;
+        border-left: none;
+    }
+    .border-circle {
+        left: -24px;
+        top: 39%;
+    }
+    #circle-now {
+        margin: -47px 0 0;
+    }
+    #about-content3 .description {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #email-button {
+        width: 98%;
+    }
+    #about-content3 {
+        padding-bottom: 40px;
+    }
 }
