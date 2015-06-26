@@ -502,40 +502,28 @@ span{
     font-size: 36px;
 }
 @media only screen and (max-width: 375px){
-
-.link2{
-	margin-left: 0px;
-    margin-top: 0px; 
-}
-.link1{
-	margin-left: 0px;
-<<<<<<< HEAD
-=======
-}
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
-}
+	.link2{
+		margin-left: 0px;
+	    margin-top: 0px; 
+	}
+	.link1{
+		margin-left: 0px;
+	}
 }
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
 @media only screen and (max-width: 414px){
-#social_icons {
-	display: none;
-}
+	#social_icons {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 320px){
-#social_icons {
-	display: none;
-}
-#nav{
-	display: none;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
+	#social_icons {
+		display: none;
+	}
+	#nav{
+		display: none;
+	}
+}	
