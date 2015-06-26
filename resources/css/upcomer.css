@@ -424,7 +424,29 @@ div input[type="submit"]{
 
 
 /*responsive design*/
-
+@media only screen and (max-width: 1150px){
+#second_section {
+  width: 65%;
+}
+#notification_div {
+   width: 65%;
+}
+@media only screen and (max-width: 1000px){
+#second_section {
+  margin: 130px 189px;
+}
+#notification_div {
+   margin: 130px 189px;
+}
+@media only screen and (max-width: 800px){
+#second_section {
+	width: 82%;
+	margin: 130px 127px;
+}
+#notification_div {
+	width: 82%;
+	margin: 130px 127px;
+}
 @media only screen and (max-width: 650px){
 #second_section {
 	width: 100%;
@@ -509,19 +531,11 @@ span{
 }
 .link1{
 	margin-left: 0px;
-<<<<<<< HEAD
-=======
-}
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
 }
 }
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
 @media only screen and (max-width: 414px){
 #social_icons {
 	display: none;
@@ -534,8 +548,4 @@ span{
 }
 #nav{
 	display: none;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fc04071f5a518277f9978ea7226ea57bce72babd
