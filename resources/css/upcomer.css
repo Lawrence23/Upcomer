@@ -210,7 +210,7 @@ div input[type="submit"]{
 .signup_container{
 	position: relative;
 	max-width: 350px;
-	margin: 5px auto 60px;
+	margin: 5px auto 130px;
 }
 .clear {
 	position: absolute;
@@ -230,7 +230,7 @@ div input[type="submit"]{
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 78px;
 }
 #scroll img{
 	cursor: pointer;
